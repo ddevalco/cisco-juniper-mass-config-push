@@ -22,7 +22,7 @@ parser_required=parser.add_argument_group('Required Arguments')
 #parser_output=parser.add_argument_group('Output Options')
 #parser_output.add_argument('--exclude_set',required=False,help='Print Juniper set statements only',action='store_true')
 #parser_output.add_argument('-v','--verbose',required=False,help='Verbose output of every step to code generation',action='store_true')
-args = parser.parse_args()
+#args = parser.parse_args()
 
 #verbose = args.verbose
 #exclude_set = args.exclude_set
