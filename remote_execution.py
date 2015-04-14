@@ -7,27 +7,6 @@ import socket
 import nmap
 from multiprocessing import Pool
 from timeit import Timer
-import argparse
-
-parser=argparse.ArgumentParser(add_help=False)
-parser_required=parser.add_argument_group('Required Arguments')
-#parser_required.add_argument('--filename',type=argparse.FileType('r'),help='Defines a file that the application should use to parse data from')
-#parser_required.add_argument('--filename',type=argparse.FileType('r'),help='Defines a file that the application should use to parse data from')
-#parser_optional=parser.add_argument_group('Optional Parameters')
-#parser_optional.add_argument('--workstations',type=int,required=False,help='Workstation VLAN-id designator for parser',default=11)
-#parser_optional.add_argument('--printers',type=int,required=False,help='Printer VLAN-id designator for parser',default=22)
-#parser_optional.add_argument('--voip',type=int,required=False,help='VoIP VLAN-id designator for parser',default=999)
-#parser_optional.add_argument('--manual',required=False,help='Manual data entry',action='store_true')
-#parser_optional.add_argument('-h','--help',action='help',help='Show this help message and exit')
-#parser_output=parser.add_argument_group('Output Options')
-#parser_output.add_argument('--exclude_set',required=False,help='Print Juniper set statements only',action='store_true')
-#parser_output.add_argument('-v','--verbose',required=False,help='Verbose output of every step to code generation',action='store_true')
-#args = parser.parse_args()
-
-#verbose = args.verbose
-#exclude_set = args.exclude_set
-#vlan = {args.workstations:'workstations', args.printers:'workstations', args.voip:'voip'}
-
 
 subnet = "" #subnet to scan and deploy configuration to
 
